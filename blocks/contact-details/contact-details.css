@@ -1,0 +1,53 @@
+/* KP Contact Details Block */
+
+.contact-details-wrapper {
+  margin: var(--spacing-m) 0;
+  border-top: 1px solid var(--kp-border-light);
+  padding-top: var(--spacing-m);
+}
+
+.contact-details h2 {
+  font-size: 28px;
+  color: var(--kp-navy-dark);
+  margin-bottom: var(--spacing-xs);
+}
+
+.contact-details .region-intro {
+  color: var(--kp-navy-dark);
+  margin-bottom: var(--spacing-m);
+  font-size: 15px;
+}
+
+.contact-details .contact-item {
+  border-bottom: 1px solid var(--kp-border-light);
+  padding: var(--spacing-m) 0;
+}
+
+.contact-details .contact-item:last-child {
+  border-bottom: none;
+}
+
+.contact-details .contact-item h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--kp-navy-dark);
+  margin-bottom: 6px;
+}
+
+.contact-details .contact-item a.phone {
+  font-size: 16px;
+  color: var(--kp-blue-link);
+  display: inline-block;
+  margin-bottom: 4px;
+  text-decoration: underline;
+}
+
+.contact-details .contact-item a.phone:hover {
+  text-decoration: none;
+}
+
+.contact-details .contact-item p {
+  margin: 0 0 4px;
+  font-size: 15px;
+  line-height: 1.5;
+}
