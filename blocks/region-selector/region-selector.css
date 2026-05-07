@@ -1,0 +1,45 @@
+/* KP Region Selector Block */
+
+.region-selector-wrapper {
+  margin: var(--spacing-m) 0;
+}
+
+.region-selector {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.region-selector label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--kp-navy-dark);
+}
+
+.region-selector select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: var(--kp-navy-dark);
+  color: var(--kp-white);
+  border: 2px solid var(--kp-navy-medium);
+  border-radius: 4px;
+  padding: 12px 40px 12px 16px;
+  font-size: 16px;
+  font-family: var(--body-font-family);
+  cursor: pointer;
+  max-width: 320px;
+  width: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23ffffff' stroke-width='2' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+}
+
+.region-selector select:focus {
+  outline: 3px solid var(--kp-blue-link);
+  outline-offset: 2px;
+}
+
+.region-selector select option {
+  background: var(--kp-white);
+  color: var(--kp-navy-dark);
+}
