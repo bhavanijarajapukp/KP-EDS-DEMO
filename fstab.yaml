@@ -1,2 +1,3 @@
 mountpoints:
-  /: https://content.da.live/bhavanijarajapukp/kp-eds-demo/
+mountpoints:
+  /: https://da.live/bhavanijarajapukp/kp-eds-demo/: https://content.da.live/bhavanijarajapukp/kp-eds-demo/
